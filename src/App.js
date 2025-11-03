@@ -1,24 +1,38 @@
-import logo from './logo.svg';
 import './App.css';
-
+// import NavBar from './components/NavBar';
+// import Course from './components/Course';
+// import Footer from './components/Footer';
+// import LoginButton from'./components/LoginButton';
+// import Counter from'./components/Counter';
+// import ToggleContent from'./components/ToggleContent';
+// import Message from './components/Message';
+// import Greeting from './components/Greeting';
+// import StudentAttendance from './components/StudentAttendance';
+// import LightSwitch from './components/LightSwitch';
+// import ColorChanger from './components/Colorchanger';
+import SimpleLoginApp from './components/SimpleLoginApp';
 function App() {
+ 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <NavBar/> */}
+        {/* <Footer/> */}
+        {/* <LoginButton/>
+<Counter/>
+<br></br>
+<br></br>
+<ToggleContent/> */}
+    {/* <Course name="Javascript" description="This is a Javascript Learning" />
+      <Course name="Bootstrap" description="This is a Boostrap Learning"  />
+    <Course name="react " description ="This is a React learing"/> */}
+    {/* <Message message="hi how are you ??"/> */}
+    {/* <Greeting/> */}
+    {/* <StudentAttendance name="john" />
+     <StudentAttendance name="Priya" /> */}
+     {/* <LightSwitch/> */}
+     {/* <ColorChanger/> */}
+    <SimpleLoginApp/>
+    </>
   );
 }
 

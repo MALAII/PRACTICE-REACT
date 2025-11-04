@@ -10,7 +10,11 @@ import './App.css';
 // import StudentAttendance from './components/StudentAttendance';
 // import LightSwitch from './components/LightSwitch';
 // import ColorChanger from './components/Colorchanger';
-import SimpleLoginApp from './components/SimpleLoginApp';
+// import SimpleLoginApp from './components/SimpleLoginApp';
+import GreetingMessage from './components/GreetingMessage';
+import ShowName from './components/ShowName';
+import CounterApp from './components/CounterApp';
+import TemperatureCheck from './components/TemperatureCheck';
 function App() {
  
   return (
@@ -31,7 +35,11 @@ function App() {
      <StudentAttendance name="Priya" /> */}
      {/* <LightSwitch/> */}
      {/* <ColorChanger/> */}
-    <SimpleLoginApp/>
+    {/* <SimpleLoginApp/> */}
+    <GreetingMessage/>
+    <ShowName/>
+    <CounterApp/>
+    <TemperatureCheck/>
     </>
   );
 }

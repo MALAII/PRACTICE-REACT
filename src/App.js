@@ -15,6 +15,9 @@ import GreetingMessage from './components/GreetingMessage';
 import ShowName from './components/ShowName';
 import CounterApp from './components/CounterApp';
 import TemperatureCheck from './components/TemperatureCheck';
+import FruitsList from './components/FruitsList';
+import NumberList from './components/NumberList';
+import NameList from './components/NameList';
 function App() {
  
   return (
@@ -40,7 +43,11 @@ function App() {
     <ShowName/>
     <CounterApp/>
     <TemperatureCheck/>
+    <FruitsList/>
+    <NumberList/>
+    <NameList/>
     </>
+    
   );
 }
 

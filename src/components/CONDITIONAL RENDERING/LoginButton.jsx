@@ -1,5 +1,5 @@
 import {useState} from "react"
-import Home from './Home';
+import Home from '../COMPONENTS/Home';
 
 function LoginButton (){
     const [isLogin, setIsLogin]=useState(false);

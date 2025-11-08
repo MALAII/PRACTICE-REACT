@@ -4,7 +4,7 @@
 // Use conditional rendering for switching pages
 
 import { useState } from "react";
-import Home from './Home';
+import Home from '../COMPONENTS/Home';
 function SimpleLoginApp(){
     const [isLoggedIn, setIsLoggedIn]=useState(false);
     const HandleLogin=()=>{

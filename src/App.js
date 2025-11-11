@@ -39,6 +39,20 @@ import ParentFunction from './components/PROPS/ParentFunction';
 import LoginProp from './components/PROPS/LoginProp';
 import ColorProp from './components/PROPS/ColorProp';
 import UserInfo from './components/PROPS/UserInfo';
+import NameForm from './components/FORM/NameForm';
+import GenderForm from './components/FORM/GenderForm';
+import LoginCheck from './components/FORM/LoginCheck'
+import TermsForm from './components/FORM/TermsForm';
+import FeedbackForm from './components/FORM/FeedBackForm';
+import Practice6 from './components/USE_EFFECT/Practice6';
+// import Practice4 from './components/USE_EFFECT/Practice4';
+// import CountExample from './components/USE_EFFECT/CountExample';
+// import UseEffectDemo from './components/USE_EFFECT/UseEffectDemo';
+// import Practice1 from './components/USE_EFFECT/Practice1';
+// import Practice2 from './components/USE_EFFECT/Practice2';
+// import Practice3 from './components/USE_EFFECT/Practice3';
+// import Practice5 from './components/USE_EFFECT/Practice5';
+
 
 function App() {
     // const stud={
@@ -94,7 +108,19 @@ function App() {
      <ColorProp color="red"/>
      <ColorProp color="yellow"/> */}
      <UserInfo user1={user}/>
-
+     <NameForm/>
+     <GenderForm/>
+     <LoginCheck/>
+     <TermsForm/>
+     <FeedbackForm/>
+     {/* <CountExample/>
+     <UseEffectDemo/>
+     <Practice1 name="ram"/> */}
+     {/* <Practice2/> */}
+     {/* <Practice3/> */}
+ {/* <Practice4/> */}
+ {/* <Practice5/> */}
+ <Practice6/>
     </>
 
   );

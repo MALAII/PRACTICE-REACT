@@ -1,4 +1,7 @@
 import './App.css';
+import DeletePost from './components/AXIOS -API/DeletePost';
+import PutData from './components/AXIOS -API/PutData';
+import ColorReducer from './components/USE_REDUCER/ColorReducer';
 // import BookList from './components/MAPPING FUNCTION/BookList';
 // import EmployeeList from './components/MAPPING FUNCTION/EmployeeList';
 // import NavBar from './components/NavBar';
@@ -53,17 +56,27 @@ import './App.css';
 // import Practice2 from './components/USE_EFFECT/Practice2';
 // import Practice3 from './components/USE_EFFECT/Practice3';
 // import Practice5 from './components/USE_EFFECT/Practice5';
-
-import {BrowserRouter, Routes, Route, Link} from "react-router-dom";
-import Home from './components/PAGES/Home';
-import Profile from './components/PAGES/Profile';
-import Contact from './components/PAGES/Contact';
-import PageNotFound from './components/PAGES/PageNotFound';
-import Login from './components/PAGES/Login';
-import Products from './components/PAGES/Products';
-import ButtonNavigation from './components/NAVIGATION/ButtonNavigation';
-import NavigateBack from './components/NAVIGATION/NavigateBack';
-import ConditionalNavigation from './components/NAVIGATION/ConditionalNavigation';
+// import {BrowserRouter, Routes, Route, Link} from "react-router-dom";
+// import Home from './components/PAGES/Home';
+// import Profile from './components/PAGES/Profile';
+// import Contact from './components/PAGES/Contact';
+// import PageNotFound from './components/PAGES/PageNotFound';
+// import Login from './components/PAGES/Login';
+// import Products from './components/PAGES/Products';
+// import ButtonNavigation from './components/NAVIGATION/ButtonNavigation';
+// import NavigateBack from './components/NAVIGATION/NavigateBack';
+// import ConditionalNavigation from './components/NAVIGATION/ConditionalNavigation';
+// import Navigate from './components/NAVIGATION/Navigate';
+// import User2 from './components/NAVIGATION/User2';
+// import UserId from './components/USEPARAMS/UserId';
+// import ProductParams from './components/USEPARAMS/ProductParams';
+// import GetData from './components/AXIOS -API/GetData';
+// import GetUser from './components/AXIOS -API/GetUser';
+// import PostForm from './components/AXIOS -API/PostForm,';
+// import CounterReducer from './components/USE_REDUCER/CounterReducer';
+// import FormReducer from './components/USE_REDUCER/FormReducer';
+// import ToggleReducer from './components/USE_REDUCER/ToggleReducer';
+// import TrafficReducer from './components/USE_REDUCER/TrafficReducer';
 
 
 function App() {
@@ -74,7 +87,7 @@ function App() {
   //    const detail={ name: "Laptop", price: 55000 };
   //   const fruit=["Apple", "Banana", "Grapes"];
   //   const userdata={isloggedin: true}
-  const user = { name: "Priya", address: { city: "Chennai", pincode: 600001 } }
+  // const user = { name: "Priya", address: { city: "Chennai", pincode: 600001 } }
 
 
   return (
@@ -134,7 +147,7 @@ function App() {
       {/* <Practice5/> */}
       {/* <Practice6/>
  <CartExample/> */}
-        <BrowserRouter>
+        {/* <BrowserRouter>
 
         <nav>
           <Link to='/home' >Home</Link> |
@@ -145,7 +158,13 @@ function App() {
           <Link to='/products/:id'>Products</Link>  |
           <Link to='/buttonnavigation'>Button</Link> |
           <Link to='/navigateback' >back</Link> |
-          <Link to ='/conditionalnavigation'>navigate</Link>
+          <Link to ='/conditionalnavigation'>navigate</Link> |
+          <Link to='/navigate/:id' >Navigate</Link>  |
+          <Link to='/userid/:id'>UserId</Link>  |
+          <Link to='/productparams/:id/:name'>Product</Link>
+         
+          
+
 
         
         </nav>
@@ -160,16 +179,25 @@ function App() {
           <Route path='/buttonnavigation' element={<ButtonNavigation/>}></Route>
           <Route path='/navigateback' element={<NavigateBack/>}></Route>
           <Route path='/conditionalnavigation' element={<ConditionalNavigation/>}></Route>
+          <Route path='/navigate/:id' element={<Navigate/>}></Route>
+          <Route path='/user/2' element={<User2/>}></Route>
+          <Route path='/Userid/:id' element={<UserId/>}></Route>
+          <Route path='/productparams/:id/:name' element={<ProductParams/>}></Route>
+
 
         </Routes>
-        
-        
-        
-        
-        
-        </BrowserRouter>
-
-
+        </BrowserRouter> */}
+      {/* <GetData/>
+      <GetUser/>
+      <PostForm/> */}
+      {/* <CounterReducer/>
+      <ToggleReducer/>
+      <TrafficReducer/>
+      <ColorReducer/>
+      
+      <FormReducer/> */}
+      <PutData/>
+      <DeletePost/>
     </>
 
 
